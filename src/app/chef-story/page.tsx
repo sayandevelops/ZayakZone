@@ -9,7 +9,7 @@ export default function ChefStoryPage() {
     <>
       <div className="relative h-[50vh] w-full">
         <Image
-          src="https://placehold.co/1920x1080.png"
+          src="https://images.pexels.com/photos/776538/pexels-photo-776538.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
           alt="Chef in the kitchen"
           layout="fill"
           objectFit="cover"
@@ -31,7 +31,7 @@ export default function ChefStoryPage() {
         <div className="grid md:grid-cols-3 gap-12 items-start">
           <AnimatedSection className="md:col-span-1">
             <Image
-              src="https://placehold.co/800x1000.png"
+              src="https://images.pexels.com/photos/4252136/pexels-photo-4252136.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&dpr=2"
               alt="Portrait of Chef Anamika"
               width={800}
               height={1000}

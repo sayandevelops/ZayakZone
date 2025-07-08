@@ -6,11 +6,11 @@ import { SectionWrapper } from "../shared/section-wrapper";
 import { AnimatedSection } from "../shared/animated-section";
 
 const reviews = [
-  { id: 1, name: 'Alisha P.', rating: 5, text: "Absolutely divine! The flavors were authentic and rich. The best Chicken Biryani I've had in ages. A must-visit!", image: 'https://placehold.co/100x100.png', hint: 'woman smiling' },
-  { id: 2, name: 'Mark R.', rating: 4, text: "Great atmosphere and delicious food. The Paneer Tikka was perfectly cooked. A bit pricey, but worth it for a special occasion.", image: 'https://placehold.co/100x100.png', hint: 'man portrait' },
-  { id: 3, name: 'Priya D.', rating: 5, text: "ZaykaZone is our new favorite spot! The service is impeccable, and every dish we tried was a masterpiece. Highly recommended.", image: 'https://placehold.co/100x100.png', hint: 'woman portrait' },
-  { id: 4, name: 'David Chen', rating: 5, text: "Incredible experience. The lamb vindaloo had the perfect amount of spice. The floating dish decor is a nice touch too!", image: 'https://placehold.co/100x100.png', hint: 'asian man' },
-  { id: 5, name: 'Sophia L.', rating: 4, text: "The desserts are to die for! Gulab Jamun was heavenly. The main course was good, but the sweets stole the show.", image: 'https://placehold.co/100x100.png', hint: 'smiling person' },
+  { id: 1, name: 'Alisha P.', rating: 5, text: "Absolutely divine! The flavors were authentic and rich. The best Chicken Biryani I've had in ages. A must-visit!", image: 'https://images.pexels.com/photos/1181519/pexels-photo-1181519.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&dpr=2', hint: 'woman smiling' },
+  { id: 2, name: 'Mark R.', rating: 4, text: "Great atmosphere and delicious food. The Paneer Tikka was perfectly cooked. A bit pricey, but worth it for a special occasion.", image: 'https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&dpr=2', hint: 'man portrait' },
+  { id: 3, name: 'Priya D.', rating: 5, text: "ZaykaZone is our new favorite spot! The service is impeccable, and every dish we tried was a masterpiece. Highly recommended.", image: 'https://images.pexels.com/photos/762020/pexels-photo-762020.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&dpr=2', hint: 'woman portrait' },
+  { id: 4, name: 'David Chen', rating: 5, text: "Incredible experience. The lamb vindaloo had the perfect amount of spice. The floating dish decor is a nice touch too!", image: 'https://images.pexels.com/photos/1040880/pexels-photo-1040880.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&dpr=2', hint: 'asian man' },
+  { id: 5, name: 'Sophia L.', rating: 4, text: "The desserts are to die for! Gulab Jamun was heavenly. The main course was good, but the sweets stole the show.", image: 'https://images.pexels.com/photos/943084/pexels-photo-943084.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&dpr=2', hint: 'smiling person' },
 ];
 
 export function ReviewsSection() {
