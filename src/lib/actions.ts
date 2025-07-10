@@ -10,13 +10,13 @@ export async function analyzeReviewAction(
 ): Promise<AnalysisState> {
   const reviewText = formData.get('reviewText') as string;
   
-  if (!reviewText || reviewText.trim().length < 10) {
+  if (!reviewText || reviewText.trim().length < 5) {
     return { 
         sentiment: '',
         positiveFeedback: '',
         areasForImprovement: '',
         overallScore: 0,
-        error: 'Please enter a review with at least 10 characters.' 
+        error: 'Please enter a review with at least 5 characters.' 
     };
   }
 

@@ -10,7 +10,7 @@ export function Footer() {
             <UtensilsCrossed className="h-8 w-8 text-primary" />
             <span className="text-2xl font-bold font-headline">ZaykaZone</span>
           </div>
-          <p className="text-sm text-muted-foreground">&copy; 2024 ZaykaZone. All rights reserved.</p>
+          <p className="text-sm text-muted-foreground">&copy; 2025 ZaykaZone. All rights reserved.</p>
           <div className="flex items-center gap-4">
             <Link href="#" className="text-muted-foreground hover:text-foreground" prefetch={false}>
               <Twitter className="h-5 w-5" />

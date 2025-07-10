@@ -11,7 +11,7 @@ export function HeroSection() {
         muted
         playsInline
       >
-        <source src="https://videos.pexels.com/video-files/3209828/3209828-hd_1920_1080_25fps.mp4" type="video/mp4" />
+        <source src="https://videos.pexels.com/video-files/3769953/3769953-hd_1920_1080_25fps.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
       <div className="absolute inset-0 bg-black/60" />
